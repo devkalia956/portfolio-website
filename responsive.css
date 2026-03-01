@@ -1,0 +1,201 @@
+@media (max-width: 1024px) {
+  .head {
+    flex-direction: column;
+    padding: 6px 0px;
+  }
+
+  .hero {
+    gap: 15%;
+  }
+
+  .about {
+    padding: 40px 0px;
+  }
+
+  .about-content {
+    margin: 0 7%;
+    font-size: 20px;
+  }
+
+  .about-link {
+    margin: 10px 20px 0px 0px;
+  }
+
+  .portfolio-content {
+    height: 420px;
+  }
+
+  .portfolio-content img {
+    height: 160px;
+    width: 300px;
+  }
+
+  .portfolio-subcontent {
+    width: 290px;
+    height: 200px;
+  }
+
+  .portfolio-subcontent h2 {
+    font-size: 20px;
+  }
+
+  .portfolio-subcontent p {
+    font-size: 16px;
+  }
+
+  .skill-head {
+    padding: 30px 0px;
+    font-size: 18px;
+  }
+
+  .skill-body{
+    padding-bottom: 60px;
+  }
+
+  .skill-card {
+    padding: 22px 10px;
+  }
+
+.foot-head{
+  padding: 35px 0px;
+}
+
+  .foot-body {
+  padding: 10px 0px 50px 0px;
+}
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .head {
+    position: static;
+  }
+
+  .nav-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    gap: 32px;
+    padding: 42px 0px;
+  }
+
+  .hero-img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .hero-img img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .hero-content {
+    font-size: 20px;
+  }
+
+  .about {
+    padding: 25px 0px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .about-btn {
+    margin-left: 10%;
+  }
+
+  .about-link {
+    margin: 10px 15px 0px 0px;
+  }
+
+  .portfolio-section {
+    padding: 30px 0px 40px 0px;
+  }
+
+  .portfolio-head {
+    margin-bottom: 5px;
+  }
+
+  .portfolio-content {
+    height: 750px;
+    grid-template-columns: none;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .portfolio-content img {
+    height: 140px;
+    width: 270px;
+  }
+
+  .portfolio-subcontent {
+    width: 260px;
+    height: 180px;
+    margin-top: -20px;
+    gap: 16px;
+  }
+
+  .portfolio-subcontent h2 {
+    font-size: 20px;
+  }
+
+  .portfolio-subcontent p {
+    font-size: 14px;
+  }
+
+  .portfolio-img {
+    grid-row: 3/4;
+  }
+
+  .ai-image {
+    margin: 0px;
+  }
+
+  .portfolio-img {
+    margin-right: 0px;
+  }
+
+  .subcontent1 {
+    margin-left: 0px;
+  }
+
+  .subcontent2 {
+    margin-right: 0px;
+  }
+
+  .skill-head {
+    padding: 20px 0px;
+  }
+
+  .skill-body {
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px 0px 50px 0px;
+  }
+
+  .skill-card {
+    width: 270px;
+    height: 180px;
+    gap: 40px;
+  }
+
+  .foot-body{
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .foot-content{
+    gap: 1px;
+    font-size: 18px;
+  }
+
+  .foot-content i{
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+}
