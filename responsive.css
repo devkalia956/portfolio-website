@@ -71,6 +71,10 @@
     position: static;
   }
 
+  .logo{
+    margin-bottom: 10px;
+  }
+
   .nav-item {
     flex-direction: column;
     gap: 12px;
@@ -199,3 +203,4 @@
     margin-bottom: 2px;
   }
 }
+
