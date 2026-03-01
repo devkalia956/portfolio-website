@@ -183,7 +183,7 @@
   }
 
   .skill-card {
-    width: 270px;
+    width: 280px;
     height: 180px;
     gap: 40px;
   }
@@ -204,6 +204,7 @@
     margin-bottom: 2px;
   }
 }
+
 
 
 
